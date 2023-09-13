@@ -33,12 +33,14 @@ aside {
   border-radius: 15px;
 }
 
-.img {
-  display: inline-block;
+.imgProf {
+  display: flex;
   overflow: hidden;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 350px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
 }
 
 .h3 {
