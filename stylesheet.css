@@ -73,17 +73,15 @@ header p {
 }
 
 /* Navigation */
-
+/* styling the nav container */
 nav {
   background-color: gray;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 5px solid;
 }
-
+/* styling the nav list blocks(containers) */
 nav ul li {
   background-color: rgb(50, 50, 235);
   margin: 10px;
@@ -92,19 +90,19 @@ nav ul li {
   padding: 20px;
   cursor: pointer;
 }
-
+/* styling the links itself */
 a {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
-
+/* hover */
 nav ul li:hover {
   background-color: green;
   text-decoration: none;
 }
-
+/* displaying nav list container blocks in position */
 .navList li {
   display: inline-block;
   margin-right: 30px;
