@@ -2,26 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sen&family=Ubuntu:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Sen&display=swap");
 
+/* Main */
+
 .body {
   font-size: 16px;
   background-color: rgb(219, 219, 219);
   font-family: "Lora", sans-serif;
   margin: 0;
-  padding: 10px;
-  border: 10px solid;
+  padding: 5px;
+  border: 5px solid;
   border-radius: 15px;
 }
 
 .section {
   margin: 10px;
   padding: 20px;
+  margin-bottom: 25px;
 }
+
+/* Header */
 
 .header {
   font-size: 30px;
   font-family: "Roboto Mono", sans-serif;
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 500px;
   margin: 0;
   padding: 10px;
@@ -33,6 +38,11 @@ aside {
   border-radius: 15px;
 }
 
+header p {
+  color: whitesmoke;
+  font-size: 25px;
+}
+
 .imgProf {
   display: flex;
   overflow: hidden;
@@ -41,12 +51,16 @@ aside {
   height: 350px;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
+
+/* Different Sections */
 
 .h3 {
   font-family: "Roboto Mono", sans-serif;
   padding: 20px;
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .h2 {
@@ -57,6 +71,8 @@ aside {
   padding: 30px;
   font-size: 28px;
 }
+
+/* Navigation */
 
 nav {
   background-color: gray;
@@ -94,6 +110,8 @@ nav ul li:hover {
   margin-right: 30px;
   list-style-type: none;
 }
+
+/* Footer */
 
 .foot {
   background-color: gray;
