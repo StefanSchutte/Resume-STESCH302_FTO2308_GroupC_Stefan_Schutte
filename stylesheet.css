@@ -26,21 +26,28 @@
   font-size: 30px;
   font-family: "Roboto Mono", sans-serif;
   position: absolute;
-  top: 80px;
+  top: 90px;
   left: 500px;
   margin: 0;
-  padding: 10px;
+  padding: 5px;
 }
 
 header,
 aside {
-  background-color: rgb(50, 50, 235);
-  border-radius: 15px;
+  background-color: transparent;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+aside {
+  height: 85vh;
+  background-image: url(img/IMG-9965.JPG);
+  background-position: center;
+  background-size: cover;
 }
 
 header p {
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .imgProf {
@@ -75,7 +82,10 @@ header p {
 /* Navigation */
 /* styling the nav container */
 nav {
+  position: sticky;
+  top: 0;
   background-color: gray;
+  padding: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,10 +94,10 @@ nav {
 /* styling the nav list blocks(containers) */
 nav ul li {
   background-color: rgb(50, 50, 235);
-  margin: 10px;
+  margin: 0px;
   font-size: 18px;
   border-radius: 15px;
-  padding: 20px;
+  padding: 15px;
   cursor: pointer;
 }
 /* styling the links itself */
@@ -105,7 +115,7 @@ nav ul li:hover {
 /* displaying nav list container blocks in position */
 .navList li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 60px;
   list-style-type: none;
 }
 
@@ -132,5 +142,11 @@ td a {
 }
 
 td {
-  padding: 75px;
+  padding: 55px;
+}
+
+.form {
+  font-family: "Ubuntu", sans-serif;
+  color: whitesmoke;
+  background-color: gray;
 }
