@@ -147,19 +147,15 @@
                 />
               </div>
 
-              <div class="form-group">
-                <label for="reason">In connection with:</label>
-                <br />
-                <label>
-                  <input type="radio" name="reason" />Job Oppertunity</label
-                ><br />
-                <label>
-                  <input type="radio" name="reason" />Want more
-                  information</label
-                >
-                <br />
-                <label> <input type="radio" name="reason" />Other</label>
+              <div>
+                <label for="reason">In connection with:</label><br />
+                <select name="reason" required>
+                  <option value="jobOppertunity">Job Oppertunity</option>
+                  <option value="moreInformation">More Information</option>
+                  <option value="other">Other</option>
+                </select>
               </div>
+
               <div>
                 <textarea
                   placeholder="Leave me a message."
