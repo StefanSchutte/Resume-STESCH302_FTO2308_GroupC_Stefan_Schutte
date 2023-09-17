@@ -85,6 +85,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: gray;
+  opacity: 0.8;
   padding: 1px;
   display: flex;
   justify-content: center;
@@ -144,9 +145,20 @@ td a {
 td {
   padding: 55px;
 }
-
+/* form */
 .form {
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
   background-color: gray;
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  color: whitesmoke;
+}
+
+.btn {
+  background-color: olivedrab;
+  font-family: "Ubuntu", sans-serif;
+  color: whitesmoke;
 }
