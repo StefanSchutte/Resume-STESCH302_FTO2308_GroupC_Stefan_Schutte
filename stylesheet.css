@@ -12,6 +12,7 @@
   padding: 5px;
   border: 5px solid;
   border-radius: 15px;
+  width: 100%vw;
 }
 
 .section {
@@ -25,20 +26,20 @@
 .header {
   font-size: 30px;
   font-family: "Roboto Mono", sans-serif;
-  position: absolute;
-  top: 90px;
-  left: 500px;
+  position: relative;
   margin: 0;
-  padding: 5px;
+  padding: 30px;
+}
+h1 {
+  margin: 0;
 }
 
-header,
 aside {
   background-color: transparent;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
-aside {
+  display: flex;
+  align-items: center;
   height: 85vh;
   background-image: url(img/IMG-9965.JPG);
   background-position: center;
@@ -54,9 +55,9 @@ header p {
   display: flex;
   overflow: hidden;
   border-radius: 50%;
-  width: 350px;
+  max-width: 350px;
   height: 350px;
-  justify-content: center;
+
   align-items: center;
   margin-left: 50px;
 }
@@ -152,13 +153,73 @@ td {
   background-color: gray;
 }
 
+.fullForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formEl {
+  padding: 10px;
+}
+
 h4 {
+  font-size: large;
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
+  padding: 50px;
+}
+input,
+select,
+textarea {
+  border-radius: 15px;
+  width: 400px;
+  background-color: rgb(184, 180, 180);
 }
 
 .btn {
   background-color: olivedrab;
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: medium;
+    column-count: 1;
+  }
+  header {
+    font-size: 20px;
+
+    position: absolute;
+    top: 300px;
+    left: 10px;
+  }
+  aside {
+    font-size: 1em;
+  }
+  footer {
+    font-size: 1.2em;
+  }
+  article {
+    font-size: 1em;
+  }
+  nav {
+    font-size: 0.7em;
+  }
+  .navList li {
+    margin-right: 10px;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1220px) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
