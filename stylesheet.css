@@ -202,7 +202,7 @@ textarea {
   }
 
   .section {
-    font-size: 90%;
+    font-size: 20px;
     padding: 20px;
   }
   /* nav */
@@ -239,7 +239,6 @@ textarea {
 
   aside {
     font-size: medium;
-    height: 50%;
     display: grid;
     place-items: center;
   }
@@ -248,7 +247,7 @@ textarea {
     font-size: 1em;
   }
   .section {
-    font-size: 75%;
+    font-size: 25px;
     padding: 15px;
   }
   /* nav */
