@@ -189,6 +189,47 @@ textarea {
   color: whitesmoke;
 }
 
+/* tablet */
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 20px;
+    column-count: 1;
+  }
+
+  aside {
+    display: grid;
+    place-items: center;
+  }
+
+  .section {
+    font-size: 90%;
+    padding: 20px;
+  }
+  /* nav */
+  nav ul li {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .navList li {
+    margin-right: 5px;
+  }
+  /* foot */
+
+  footer {
+    font-size: 1.2em;
+  }
+  td {
+    padding: 10px;
+  }
+  /* form */
+  input,
+  select,
+  textarea {
+    border-radius: 15px;
+    width: 250px;
+  }
+}
+
 /* mobile */
 @media only screen and (max-width: 550px) {
   body {
@@ -232,47 +273,6 @@ textarea {
   textarea {
     border-radius: 15px;
     width: 100px;
-  }
-}
-
-/* tablet */
-@media only screen and (max-width: 1024px) {
-  body {
-    font-size: 20px;
-    column-count: 1;
-  }
-
-  aside {
-    display: grid;
-    place-items: center;
-  }
-
-  .section {
-    font-size: 90%;
-    padding: 20px;
-  }
-  /* nav */
-  nav ul li {
-    font-size: 10px;
-    padding: 10px;
-  }
-  .navList li {
-    margin-right: 5px;
-  }
-  /* foot */
-
-  footer {
-    font-size: 1.2em;
-  }
-  td {
-    padding: 10px;
-  }
-  /* form */
-  input,
-  select,
-  textarea {
-    border-radius: 15px;
-    width: 250px;
   }
 }
 
