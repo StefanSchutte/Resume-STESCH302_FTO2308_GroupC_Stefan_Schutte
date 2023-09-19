@@ -33,7 +33,7 @@ body {
 h1 {
   margin: 0;
 }
-
+/* customized aside  */
 aside {
   background-color: transparent;
   border-top-left-radius: 15px;
@@ -190,7 +190,7 @@ textarea {
 }
 
 /* mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 550px) {
   body {
     font-size: 10px;
     column-count: 1;
@@ -200,6 +200,7 @@ textarea {
     font-size: medium;
     height: 50%;
     display: grid;
+    place-items: center;
   }
 
   article {
@@ -243,6 +244,7 @@ textarea {
 
   aside {
     display: grid;
+    place-items: center;
   }
 
   .section {
