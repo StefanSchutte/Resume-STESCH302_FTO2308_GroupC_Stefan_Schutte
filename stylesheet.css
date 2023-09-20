@@ -200,6 +200,16 @@ textarea {
     display: grid;
     place-items: center;
   }
+  .header {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 15px;
+  }
+
+  .imgProf {
+    margin: 0;
+  }
 
   .section {
     font-size: 20px;
@@ -243,6 +253,16 @@ textarea {
     place-items: center;
   }
 
+  .imgProf {
+    margin: 0;
+  }
+  .header {
+    font-size: 20px;
+  }
+  header p {
+    font-size: 10px;
+  }
+
   article {
     font-size: 1em;
   }
@@ -252,7 +272,7 @@ textarea {
   }
   /* nav */
   nav ul li {
-    font-size: 10px;
+    font-size: 5px;
     padding: 5px;
   }
   .navList li {
@@ -260,9 +280,6 @@ textarea {
   }
   /* foot */
 
-  footer {
-    font-size: 1.2em;
-  }
   td {
     padding: 2px;
   }
