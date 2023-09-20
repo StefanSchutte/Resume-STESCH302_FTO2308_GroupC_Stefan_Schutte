@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 5px;
   border: 5px solid;
+
   border-radius: 15px;
   width: 100%vw;
 }
@@ -197,7 +198,7 @@ textarea {
   }
 
   aside {
-    display: grid;
+    display: inline-grid;
     place-items: center;
   }
   .header {
@@ -209,6 +210,8 @@ textarea {
 
   .imgProf {
     margin: 0;
+    max-width: 270px;
+    height: 270px;
   }
 
   .section {
@@ -254,7 +257,8 @@ textarea {
   }
 
   .imgProf {
-    margin: 0;
+    max-width: 200px;
+    height: 200px;
   }
   .header {
     font-size: 20px;
