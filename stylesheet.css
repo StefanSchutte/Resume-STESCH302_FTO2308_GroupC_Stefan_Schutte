@@ -246,12 +246,15 @@ textarea {
 /* mobile */
 @media only screen and (max-width: 550px) {
   body {
-    font-size: 10px;
+    font-size: 10%;
     column-count: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 
   aside {
-    font-size: medium;
+    font-size: 50%;
     display: grid;
     place-items: center;
   }
@@ -277,16 +280,17 @@ textarea {
   /* nav */
   nav ul li {
     font-size: 5px;
-    padding: 5px;
+    padding: 1px;
   }
   .navList li {
-    margin-right: 1px;
+    margin-right: 0;
   }
   /* foot */
 
   td {
     padding: 2px;
   }
+
   /* form */
   input,
   select,
