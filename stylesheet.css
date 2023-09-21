@@ -202,7 +202,7 @@ textarea {
     place-items: center;
   }
   .header {
-    font-size: 25px;
+    font-size: 100%;
   }
   header p {
     font-size: 15px;
@@ -253,7 +253,6 @@ textarea {
   }
 
   aside {
-    font-size: 50%;
     display: grid;
     place-items: center;
   }
@@ -262,15 +261,13 @@ textarea {
     max-width: 200px;
     height: 200px;
   }
-  header {
-    font-size: 60px;
+  h1 {
+    font-size: 25px;
   }
   header p {
     font-size: 10px;
   }
-  h1 {
-    font-size: 15px;
-  }
+
   h3 {
     font-size: 15px;
   }
