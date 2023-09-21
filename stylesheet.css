@@ -262,8 +262,8 @@ textarea {
     max-width: 200px;
     height: 200px;
   }
-  .header {
-    font-size: 20px;
+  header {
+    font-size: 60px;
   }
   header p {
     font-size: 10px;
@@ -289,6 +289,9 @@ textarea {
   }
   .navList li {
     margin-right: 0;
+  }
+  a {
+    font-size: 10px;
   }
   /* foot */
 
