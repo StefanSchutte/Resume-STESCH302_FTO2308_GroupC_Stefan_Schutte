@@ -164,10 +164,12 @@ td {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  flex-direction: center;
 }
 
 .formEl {
   padding: 10px;
+  align-items: center;
 }
 
 h4 {
@@ -182,12 +184,20 @@ textarea {
   border-radius: 15px;
   width: 400px;
   background-color: rgb(184, 180, 180);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
   background-color: olivedrab;
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
+}
+
+label {
+  text-align: left;
+  padding: 10px;
 }
 
 /* tablet */
