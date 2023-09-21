@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Sen&family=Ubuntu:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Sen&display=swap");
+
+/* Main */
+
+body {
+  font-size: 16px;
+  background-color: rgb(219, 219, 219);
+  font-family: "Lora", sans-serif;
+  margin: 0;
+  padding: 5px;
+  border: 5px solid;
+
+  border-radius: 15px;
+  width: 100%vw;
+}
+
+.section {
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+/* Header */
+
+.header {
+  font-size: 40px;
+  font-family: "Roboto Mono", sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  margin: 0;
+  padding: 50px;
+}
+h1 {
+  margin: 0;
+}
+
+header p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.imgProf {
+  overflow: hidden;
+  border-radius: 50%;
+  max-width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.imgProf img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Different Sections */
+
+.h3 {
+  font-family: "Roboto Mono", sans-serif;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  font-family: "Roboto Mono", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 28px;
+}
+
+/* Navigation */
+/* styling the nav container */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid;
+}
+/* styling the nav list blocks(containers) */
+nav ul li {
+  background-color: rgb(50, 50, 235);
+  margin: 0px;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+/* styling the links itself */
+a {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* hover */
+nav ul li:hover {
+  background-color: green;
+  text-decoration: none;
+}
+/* displaying nav list container blocks in position */
+.navList li {
+  display: inline-block;
+  margin-right: 60px;
+  list-style-type: none;
+}
+
+/* Footer */
+
+.foot {
+  background-color: gray;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td a {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+td {
+  padding: 55px;
+}
