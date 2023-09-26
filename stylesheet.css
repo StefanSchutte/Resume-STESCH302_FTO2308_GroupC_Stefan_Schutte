@@ -173,10 +173,11 @@ td {
 }
 
 h4 {
-  font-size: large;
+  font-size: 4vh;
   font-family: "Ubuntu", sans-serif;
   color: whitesmoke;
   padding: 50px;
+  text-align: center;
 }
 input,
 select,
@@ -238,9 +239,6 @@ label {
   }
   /* foot */
 
-  footer {
-    font-size: 1.2em;
-  }
   td {
     padding: 10px;
   }
@@ -286,7 +284,7 @@ label {
     font-size: 1em;
   }
   .section {
-    font-size: 25px;
+    font-size: 15px;
     padding: 15px;
   }
   /* nav */
@@ -318,7 +316,11 @@ label {
   select,
   textarea {
     border-radius: 15px;
-    width: 100px;
+    width: 200px;
+  }
+
+  h4 {
+    font-size: 3vh;
   }
 }
 
@@ -326,5 +328,9 @@ label {
   .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  body {
+    font-size: 20px;
   }
 }
