@@ -135,21 +135,20 @@ nav ul li:hover {
   border-bottom-right-radius: 15px;
 }
 
-table {
+.contactDetails {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-td a {
-  display: inline-block;
+.contact img {
   overflow: hidden;
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
 
-td {
+.contact {
   padding: 55px;
 }
 /* form */
@@ -209,7 +208,7 @@ label {
   }
 
   aside {
-    display: inline-grid;
+    display: grid;
     place-items: center;
   }
   .header {
@@ -239,7 +238,7 @@ label {
   }
   /* foot */
 
-  td {
+  .contact {
     padding: 10px;
   }
   /* form */
@@ -300,17 +299,18 @@ label {
   }
   /* foot */
 
-  tr {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+  .contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
-  td {
-    text-align: center;
-    padding: 2px;
+  .contact {
+    padding: 5px;
   }
-
+  .contact img {
+    max-width: 100%;
+    max-height: 100%;
+  }
   /* form */
   input,
   select,
